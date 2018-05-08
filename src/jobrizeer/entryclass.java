@@ -22,7 +22,13 @@ public class entryclass  {
 			//Login Page 
 			driver.findElement(By.linkText("Login")).click();
 			Thread.sleep(1000);
-	
+			newsfeed N1 = new newsfeed();
+		   	N1.newfeed(driver);
+		   	
+			// Open Newsfeed page
+		   	driver.findElement(By.xpath("//li[contains(@class='active')]")).click();
+		   	Thread.sleep(1000);
+		   	
 	   	 login L1 = new login();
               L1.VUIP(driver);
 	   	      L1.IUIP(driver);
