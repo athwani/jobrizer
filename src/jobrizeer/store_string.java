@@ -2,6 +2,7 @@ package jobrizeer;
 
 public class store_string {
 	
+	// login string
 		   static  String vu="athwani.sagar1@gmail.com";
 		   static String vp="sagarathwani";
 		   
@@ -23,9 +24,9 @@ public class store_string {
 		   static String eu1="";
 		   static String vp2="sagarthwani"; 
 		   
-
+      
 	
-	
+	    //Register String
 		 static String company="Sagar Tech";
 		   static String email="sagar.tester@latitudetechnolabs.com";
 		   static String contact="9714397581";
@@ -97,4 +98,10 @@ public class store_string {
 		   static String password14="sagarathwani";
 		   static String confpassword14="sagar";
 
+              //Candidate Sting
+		   static String candisearch="ssdnsagar1@gmail.com";
+		   
+		   
+		   //Job String
+		   static String jobsearh="ssdnsagar1@gmail.com";
 }

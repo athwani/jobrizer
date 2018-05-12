@@ -9,7 +9,7 @@ public class newsfeed {
 
 
 	  public void newfeed(WebDriver driver) throws Exception {
-		  
+		/*  
 		  System.out.println("Senario start of valid user and valid password");
 			  driver.findElement(By.xpath("//input[contains(@name,'loginemail')]")).sendKeys("athwani.sagar1@gmail.com");
 				  Thread.sleep(2000);
@@ -17,7 +17,7 @@ public class newsfeed {
 				  Thread.sleep(2000);
 			  driver.findElement(By.xpath("//button[@class='popup-btn'][contains(text(),'Login')]")).click();
 				  Thread.sleep(1000);
-		  System.out.println("Senario end of valid user and valid passowrd");
+		  System.out.println("Senario end of valid user and valid passowrd");*/
   		
 		// Open Newsfeed page
 		  driver.findElement(By.xpath("//li//a[@href='/beta/newsfeed']")).click();
